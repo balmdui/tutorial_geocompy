@@ -4,9 +4,9 @@ Personal log following the tutorial on Geopandas explained in __Geocomputation w
 
 1. Geographic data in Python (2025-10-28)
 2. Attribute data operations (2025-10-28)
-3. Spatial data operations
-4. Geometry operations
-5. Raster-vector interacions
+3. Spatial data operations (2025-10-29)
+4. Geometry operations (2025-10-29)
+5. Raster-vector interacions (later)
 6. Reprojecting geographic data
 7. Geographic data I/O
 8. Making maps with Python References

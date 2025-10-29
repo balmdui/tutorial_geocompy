@@ -13,6 +13,7 @@ dependencies = [
     "numpy>=2.3.4",
     "rasterio>=1.4.3",
     "shapely>=2.1.2",
+    "topojson>=1.10",
 ]
 
 [dependency-groups]

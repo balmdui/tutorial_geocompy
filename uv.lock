@@ -1024,6 +1024,7 @@ dependencies = [
     { name = "numpy" },
     { name = "rasterio" },
     { name = "shapely" },
+    { name = "topojson" },
 ]
 
 [package.dev-dependencies]
@@ -1041,6 +1042,7 @@ requires-dist = [
     { name = "numpy", specifier = ">=2.3.4" },
     { name = "rasterio", specifier = ">=1.4.3" },
     { name = "shapely", specifier = ">=2.1.2" },
+    { name = "topojson", specifier = ">=1.10" },
 ]
 
 [package.metadata.requires-dev]
@@ -1509,6 +1511,20 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/b7/4d/08c89e34946fce2aec4fbb45c9016efd5f4d7f24af8e5d93296e935631d8/threadpoolctl-3.6.0.tar.gz", hash = "sha256:8ab8b4aa3491d812b623328249fab5302a68d2d71745c8a4c719a2fcaba9f44e", size = 21274, upload-time = "2025-03-13T13:49:23.031Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/32/d5/f9a850d79b0851d1d4ef6456097579a9005b31fea68726a4ae5f2d82ddd9/threadpoolctl-3.6.0-py3-none-any.whl", hash = "sha256:43a0b8fd5a2928500110039e43a5eed8480b918967083ea48dc3ab9f13c4a7fb", size = 18638, upload-time = "2025-03-13T13:49:21.846Z" },
+]
+
+[[package]]
+name = "topojson"
+version = "1.10"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy" },
+    { name = "packaging" },
+    { name = "shapely" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/79/f3/74330050d8f7e05e140e6043302f71524e159f9a83bbee9681c86282f8fd/topojson-1.10.tar.gz", hash = "sha256:a7f53406324061a0310bec46740a6609147c24daeb354596c68345b9527b38c1", size = 25444042, upload-time = "2025-07-22T20:27:31.638Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/6f/7a/2a8ea3b2b6e50cbec74c53082b69617d71f31e1247e35e65bf9a6edc44cf/topojson-1.10-py3-none-any.whl", hash = "sha256:0879d727c7798939e3268e8969fa87c2cd23274189fe3d8038a0fb11ff263925", size = 83318, upload-time = "2025-07-22T20:27:28.374Z" },
 ]
 
 [[package]]
