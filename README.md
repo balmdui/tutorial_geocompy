@@ -1,6 +1,6 @@
 # Log: Geocomputation with Python
 
-Personal log of learning
+Personal log of learning how to use geopandas and other related libraries.
 
 ## Geopandas explained in _Geocomputation with Python_ 
 https://py.geocompx.org
